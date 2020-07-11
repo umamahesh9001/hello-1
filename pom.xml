@@ -37,10 +37,10 @@
 				    <armDeployment>
 				      <muleVersion>${app.runtime}</muleVersion>
 				      <uri>https://anypoint.mulesoft.com</uri>
-				      <target>${srvr.target}</target>
+				      <target>dev</target>
 				      <targetType>server</targetType>
-				      <username>${srvr.user}</username>
-				      <password>${srvr.password}</password>
+				      <username>mulesoft_user8</username>
+				      <password>Surya123</password>
 				      <environment>Sandbox</environment>
 				    </armDeployment>
   				</configuration>
