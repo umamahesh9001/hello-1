@@ -39,8 +39,8 @@
 				      <uri>https://anypoint.mulesoft.com</uri>
 				      <target>dev</target>
 				      <targetType>server</targetType>
-				      <username>${sys:anypointUser}</username>
-				      <password>${sys:anypointPassword}</password>
+				      <username>${anypointUser}</username>
+				      <password>${anypointPassword}</password>
 				      <environment>Sandbox</environment>
 				    </armDeployment>
   				</configuration>
